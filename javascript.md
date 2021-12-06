@@ -95,3 +95,5 @@ forEach -> itera pels elements. no torna valor
 some -> itera retornan true si algun dels elements es true
 
 every -> itera retarna true si tos son true
+reduce -> acumula els items fins retorna un element
+llista.reduce((prev, item) => ({...prev, [item]: !!item }), {})
