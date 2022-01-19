@@ -1,0 +1,180 @@
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git checkout -b  explicacio-reduce
+Switched to a new branch 'explicacio-reduce'
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git merge master
+Already up to date.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git pull origin master
+From github.com:epina87/js-pro
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git push
+fatal: The current branch explicacio-reduce has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin explicacio-reduce
+
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$  git push --set-upstream origin explicacio-reduce
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'explicacio-reduce' on GitHub by visiting:
+remote:      https://github.com/epina87/js-pro/pull/new/explicacio-reduce
+remote:
+To github.com:epina87/js-pro.git
+ * [new branch]      explicacio-reduce -> explicacio-reduce
+Branch 'explicacio-reduce' set up to track remote branch 'explicacio-reduce' from 'origin'.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git add .
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git status
+On branch explicacio-reduce
+Your branch is up to date with 'origin/explicacio-reduce'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   javascript.md
+
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git commit -am"explicacio reduce"
+[explicacio-reduce 4b4751b] explicacio reduce
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 422 bytes | 422.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:epina87/js-pro.git
+   026393d..4b4751b  explicacio-reduce -> explicacio-reduce
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git commit -m"exercisi^C
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (explicacio-reduce)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git add .
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi"
+[master 20fd783] exercisi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 exercisi1.md
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git push
+To github.com:epina87/js-pro.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'github.com:epina87/js-pro.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 622 bytes | 155.00 KiB/s, done.
+From github.com:epina87/js-pro
+   026393d..5b4fc87  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ javascript.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 584 bytes | 584.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:epina87/js-pro.git
+   5b4fc87..0819f9b  master -> master
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi fix"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git push
+Everything up-to-date
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git add .
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi fix"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git pull
+Already up to date.
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi fix"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git commit -am"exercisi fix"
+[master 5ec2314] exercisi fix
+ 1 file changed, 48 insertions(+)
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 738 bytes | 738.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:epina87/js-pro.git
+   0819f9b..5ec2314  master -> master
+
+Xartec - Prog@LAPTOP-RI9D9G3F MINGW64 ~/Desktop/web/paginas/Proyecto/js-pro (master)
+$

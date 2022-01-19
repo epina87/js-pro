@@ -120,6 +120,28 @@
 
 
 ```js
+ function BuscarUsuarisAniaml(nomAnimal,numUser)   
+            {   
+                let llistaUsuaris=[tornarUsuari(numUser)]
+                for(let i = 0; i <numUser; ++i)
+                    {
+                        llistaUsuaris[i]   
+                        for(let a = 0; a <numUser; ++a)
+                        {
+                            llistaUsuaris[animl[a]]
+                            animal[usuaris[i].animal[a]].push(usuaris[i].nomAnimal)    
+                        
+
+                        }
+   
+                        
+
+                    }
+  
+                return llistaUsuaris;            
+            }
+
+
 function tornarLlistaAnimaUsuari(numUser)   
             {   
                 let llistaUsuaris=[tornarUsuari(numUser)]
